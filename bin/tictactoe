@@ -23,7 +23,7 @@ puts "Would you like to play a 0, 1, or 2 player game? Please enter 0, 1, or 2"
       puts "Would you like to play again? Please type yes or exit"
     selection = gets.strip
     if selection == "exit"
-      break
+      exit
     else Game.new.play
     end
   end
